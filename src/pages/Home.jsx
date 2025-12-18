@@ -70,7 +70,7 @@ function Home() {
           className="hidden md:flex justify-center"
         >
           <div className="relative">
-            <div className="w-50 h-50 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center  z-10 relative">
+            <div className="w-50 h-50 sm:w-38 h-38 md:w-40 h-40  rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center  z-10 relative">
               <img
                 src={image}
                 className="w-50 h-50 rounded-full  border border-gray-700 flex items-center justify-center "

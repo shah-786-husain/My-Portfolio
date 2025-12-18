@@ -34,13 +34,13 @@ function Home() {
               View Projects
             </Link>
 
-            <Link
-              to="/Resume.pdf"
+            <a
+              href="/Resume.pdf"
               download
               className="px-6 py-3 border border-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-black transition"
             >
               Download Resume
-            </Link>
+            </a>
           </div>
 
           {/* Social Links */}
